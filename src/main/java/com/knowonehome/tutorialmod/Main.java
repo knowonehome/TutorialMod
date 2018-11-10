@@ -1,5 +1,6 @@
 package com.knowonehome.tutorialmod;
 
+import com.knowonehome.tutorialmod.init.ModRecipes;
 import com.knowonehome.tutorialmod.proxy.CommonProxy;
 import com.knowonehome.tutorialmod.util.Reference;
 
@@ -28,7 +29,7 @@ public class Main {
 	@EventHandler
 	public static void init(FMLInitializationEvent event)
 	{
-		
+		ModRecipes.init();
 	}
 	
 	@EventHandler
